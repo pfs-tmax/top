@@ -1,0 +1,47 @@
+<resource:DataRepository
+    xmlns:resource="http://www.tmaxsoft.com/top/SNAPSHOT/resource"
+    id="DR_employee"
+    ideUniqueId="IDdc4c59d3cffd3a07973f477742c2986a"
+    package="com.tmaxos.topyunjy.datarepository">
+        
+        
+        
+        
+        
+        <resource:ListData
+        id="DI_employee"
+        ideUniqueId="ID4a4707554bfc3e539a2d76614f39fd19"
+        modelId="DM_employee">
+            
+            
+            
+            <resource:ListItem
+            modelId="DM_employee">
+                
+                
+                
+                <resource:Value
+                fieldName="DM_employee_field0"
+                simpleValue="d1"/>
+                
+                
+                
+                <resource:Value
+                fieldName="DM_employee_field1"
+                simpleValue="d2"/>
+            
+            
+            
+            </resource:ListItem>
+            
+            
+        
+        
+        
+        </resource:ListData>
+
+
+
+
+
+</resource:DataRepository>

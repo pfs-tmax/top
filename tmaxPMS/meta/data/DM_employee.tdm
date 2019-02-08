@@ -1,0 +1,12 @@
+<resource:DataModel
+    xmlns:resource="http://www.tmaxsoft.com/top/SNAPSHOT/resource"
+    id="DM_employee"
+    ideUniqueId="IDaf529e3b52f03c31bbe8bb424202f3fc"
+    package="com.tmaxos.topyunjy.datamodel">
+        <resource:dataField
+        fieldType="String"
+        name="DM_employee_field0"/>
+        <resource:dataField
+        fieldType="String"
+        name="DM_employee_field1"/>
+</resource:DataModel>

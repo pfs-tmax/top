@@ -1,0 +1,9 @@
+<resource:Application
+    xmlns:resource="http://www.tmaxsoft.com/top/SNAPSHOT/resource"
+    id="tmaxPMS"
+    basePackage="com.tmaxos.topyunjy"
+    liveReload="true"
+    name="tmaxPMS"
+    root="MaintmaxPMSWindow"
+    useDefaultFont="true"
+    webController="tmaxPMSLogic"/>

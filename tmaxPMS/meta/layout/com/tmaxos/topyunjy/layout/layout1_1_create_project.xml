@@ -1,0 +1,51 @@
+<resource:LinearLayout xmlns:resource="http://www.tmaxsoft.com/top/SNAPSHOT/resource" id="layout1_1_create_project" ideUniqueId="ID728a017da51735a3bffdf8dd8561ca25" layoutHeight="350" layoutWidth="match_parent">
+  <resource:LinearLayout id="LinearLayout312" layoutHeight="270" layoutHorizontalAlignment="LEFT" layoutWidth="match_parent" margin="10,10,10,10" padding="" orientation="horizontal">
+    <resource:GridLayout id="GridLayout0" layoutHeight="263" layoutHorizontalAlignment="LEFT" layoutVerticalAlignment="TOP" layoutWidth="350" columns="2" rows="8" spanData="0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15">
+      <resource:TextView id="TextView0" className="" horizontalAlignment="RIGHT" layoutColumn="0" layoutHeight="22" layoutHorizontalAlignment="RIGHT" layoutRow="0" layoutWidth="100" margin="3,5,5,5" padding="" verticalAlignment="CENTER" borderColor="0,#ACACAC,0,0" borderRadius="" borderWidth="" text="Project No" textSize="14"></resource:TextView>
+      <resource:TextView id="TextView1" className="" horizontalAlignment="RIGHT" layoutColumn="0" layoutHeight="22" layoutHorizontalAlignment="RIGHT" layoutRow="1" layoutWidth="100" margin="5,5,5,5" padding="" verticalAlignment="CENTER" borderRadius="" borderWidth="" text="Project Name"></resource:TextView>
+      <resource:TextView id="TextView2" className="" horizontalAlignment="RIGHT" layoutColumn="0" layoutHeight="22" layoutHorizontalAlignment="RIGHT" layoutRow="2" layoutWidth="100" margin="5,5,5,5" verticalAlignment="CENTER" borderRadius="" borderWidth="" text="Project Type"></resource:TextView>
+      <resource:TextView id="TextView3" className="" horizontalAlignment="RIGHT" layoutColumn="0" layoutHeight="22" layoutHorizontalAlignment="RIGHT" layoutRow="3" layoutWidth="100" margin="5,5,5,5" verticalAlignment="CENTER" borderRadius="" borderWidth="" text="CS"></resource:TextView>
+      <resource:TextView id="TextView4" className="" horizontalAlignment="RIGHT" layoutColumn="0" layoutHeight="22" layoutHorizontalAlignment="RIGHT" layoutRow="4" layoutWidth="100" margin="5,5,5,5" verticalAlignment="CENTER" borderRadius="" borderWidth="" text="PM"></resource:TextView>
+      <resource:TextView id="TextView5" className="" horizontalAlignment="RIGHT" layoutColumn="0" layoutHeight="22" layoutHorizontalAlignment="RIGHT" layoutRow="5" layoutWidth="100" margin="5,5,5,5" verticalAlignment="CENTER" borderRadius="" borderWidth="" text="Start"></resource:TextView>
+      <resource:TextView id="TextView6" className="" horizontalAlignment="RIGHT" layoutColumn="0" layoutHeight="22" layoutHorizontalAlignment="RIGHT" layoutRow="6" layoutWidth="wrap_content" margin="5,5,5,5" verticalAlignment="CENTER" borderRadius="" borderWidth="" text="End"></resource:TextView>
+      <resource:TextField id="PROJECT_NO" horizontalAlignment="LEFT" layoutColumn="1" layoutHeight="22" layoutHorizontalAlignment="CENTER" layoutRow="0" layoutWidth="200" margin="3,5,5,5" verticalAlignment="CENTER" borderColor="#D3DBDF,#D3DBDF,#D3DBDF,#D3DBDF" borderRadius="1,1,1,1" borderWidth="1,1,1,1" text="PROJECT_NO" textSize="14"></resource:TextField>
+      <resource:TextField id="PROJECT_NAME" horizontalAlignment="LEFT" layoutColumn="1" layoutHeight="22" layoutHorizontalAlignment="CENTER" layoutRow="1" layoutWidth="200" margin="3,5,5,5" verticalAlignment="CENTER" borderColor="#D3DBDF,#D3DBDF,#D3DBDF,#D3DBDF" borderRadius="1,1,1,1" borderWidth="1,1,1,1" text="PROJECT_NAME" textSize="14"></resource:TextField>
+      <resource:SelectBox id="PROJECT_TYPE" horizontalAlignment="CENTER" layoutColumn="1" layoutHeight="22" layoutHorizontalAlignment="CENTER" layoutRow="2" layoutVerticalAlignment="CENTER" layoutWidth="200" margin="3,5,5,5" verticalAlignment="CENTER" textSize="14"></resource:SelectBox>
+      <resource:TextField id="EMP_NO_CS" horizontalAlignment="LEFT" layoutColumn="1" layoutHeight="22" layoutHorizontalAlignment="CENTER" layoutRow="3" layoutWidth="200" margin="3,5,5,5" verticalAlignment="CENTER" borderColor="#D3DBDF,#D3DBDF,#D3DBDF,#D3DBDF" borderRadius="1,1,1,1" borderWidth="1,1,1,1" text="EMP_NO_CS" textSize="14"></resource:TextField>
+      <resource:TextField id="EMP_NO_PM" horizontalAlignment="LEFT" layoutColumn="1" layoutHeight="22" layoutHorizontalAlignment="CENTER" layoutRow="4" layoutWidth="200" margin="3,5,5,5" verticalAlignment="CENTER" borderColor="#D3DBDF,#D3DBDF,#D3DBDF,#D3DBDF" borderRadius="1,1,1,1" borderWidth="1,1,1,1" text="EMP_NO_PM" textSize="14"></resource:TextField>
+      <resource:DatePicker id="PROJECT_STARTDATE" horizontalAlignment="CENTER" layoutColumn="1" layoutHeight="22" layoutHorizontalAlignment="CENTER" layoutRow="5" layoutVerticalAlignment="CENTER" layoutWidth="200" margin="3,5,5,5"></resource:DatePicker>
+      <resource:DatePicker id="PROJECT_ENDDATE" horizontalAlignment="CENTER" layoutColumn="1" layoutHeight="22" layoutHorizontalAlignment="CENTER" layoutRow="6" layoutVerticalAlignment="CENTER" layoutWidth="200" margin="3,5,5,5"></resource:DatePicker>
+    </resource:GridLayout>
+    <resource:LinearLayout id="LinearLayout_space" layoutHeight="263" layoutLeft="130" layoutTop="0" layoutVerticalAlignment="TOP" layoutWidth="10" margin="0,0,0,10" borderColor="0,0,0,#E1E1E1" borderWidth="0,0,0,2" orientation="vertical"></resource:LinearLayout>
+    <resource:GridLayout id="GridLayout1" layoutHeight="263" layoutHorizontalAlignment="LEFT" layoutVerticalAlignment="TOP" layoutWidth="350" columns="2" rows="8" spanData="0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15">
+      <resource:TextView id="TextView0_1" className="" horizontalAlignment="RIGHT" layoutColumn="0" layoutHeight="22" layoutHorizontalAlignment="RIGHT" layoutRow="0" layoutWidth="100" margin="3,5,5,5" padding="" verticalAlignment="CENTER" borderColor="0,#ACACAC,0,0" borderRadius="" borderWidth="" text="Customer" textSize="14"></resource:TextView>
+      <resource:TextView id="TextView1_1" className="" horizontalAlignment="RIGHT" layoutColumn="0" layoutHeight="22" layoutHorizontalAlignment="RIGHT" layoutRow="1" layoutWidth="100" margin="5,5,5,5" padding="" verticalAlignment="CENTER" borderRadius="" borderWidth="" text="Customer Admin"></resource:TextView>
+      <resource:TextView id="TextView2_1" className="" horizontalAlignment="RIGHT" layoutColumn="0" layoutHeight="22" layoutHorizontalAlignment="RIGHT" layoutRow="2" layoutWidth="100" margin="5,5,5,5" verticalAlignment="CENTER" borderRadius="" borderWidth="" text="Customer Type"></resource:TextView>
+      <resource:TextView id="TextView3_1" className="" horizontalAlignment="RIGHT" layoutColumn="0" layoutHeight="22" layoutHorizontalAlignment="RIGHT" layoutRow="3" layoutWidth="100" margin="5,5,5,5" verticalAlignment="CENTER" borderRadius="" borderWidth="" text="Project Service"></resource:TextView>
+      <resource:TextView id="TextView4_1" className="" horizontalAlignment="RIGHT" layoutColumn="0" layoutHeight="22" layoutHorizontalAlignment="RIGHT" layoutRow="4" layoutWidth="100" margin="5,5,5,5" verticalAlignment="CENTER" borderRadius="" borderWidth="" text="Project Status"></resource:TextView>
+      <resource:TextView id="TextView5_1" className="" horizontalAlignment="RIGHT" layoutColumn="0" layoutHeight="22" layoutHorizontalAlignment="RIGHT" layoutRow="5" layoutWidth="100" margin="5,5,5,5" verticalAlignment="CENTER" borderRadius="" borderWidth="" text="Project Value"></resource:TextView>
+      <resource:TextView id="TextView6_1" className="" horizontalAlignment="RIGHT" layoutColumn="0" layoutHeight="22" layoutHorizontalAlignment="RIGHT" layoutRow="6" layoutWidth="wrap_content" margin="5,5,5,5" verticalAlignment="CENTER" borderRadius="" borderWidth="" text=" ">
+                </resource:TextView>
+                <resource:TextField
+                id="PROJECT_CUSTOMER"
+                horizontalAlignment="LEFT"
+                layoutColumn="1"
+                layoutHeight="22"
+                layoutHorizontalAlignment="CENTER"
+                layoutRow="0"
+                layoutWidth="200"
+                margin="3,5,5,5"
+                verticalAlignment="CENTER"
+                borderColor="#D3DBDF,#D3DBDF,#D3DBDF,#D3DBDF"
+                borderRadius="1,1,1,1"
+                borderWidth="1,1,1,1"
+                text="PROJECT_CUSTOMER"
+                textSize="14"></resource:TextField>
+      <resource:TextField id="PROJECT_CUSADMIN" horizontalAlignment="LEFT" layoutColumn="1" layoutHeight="22" layoutHorizontalAlignment="CENTER" layoutRow="1" layoutWidth="200" margin="3,5,5,5" verticalAlignment="CENTER" borderColor="#D3DBDF,#D3DBDF,#D3DBDF,#D3DBDF" borderRadius="1,1,1,1" borderWidth="1,1,1,1" text="PROJECT_CUSADMIN" textSize="14"></resource:TextField>
+      <resource:SelectBox id="PROJECT_CUSTYPE" horizontalAlignment="CENTER" layoutColumn="1" layoutHeight="22" layoutHorizontalAlignment="CENTER" layoutRow="2" layoutVerticalAlignment="CENTER" layoutWidth="200" margin="3,5,5,5" verticalAlignment="CENTER" textSize="14"></resource:SelectBox>
+      <resource:SelectBox id="PROJECT_SERVICE" horizontalAlignment="CENTER" layoutColumn="1" layoutHeight="22" layoutHorizontalAlignment="CENTER" layoutRow="3" layoutVerticalAlignment="CENTER" layoutWidth="200" margin="3,5,5,5" verticalAlignment="CENTER" textSize="14"></resource:SelectBox>
+      <resource:TextField id="PROJECT_STATUS" disable="true" horizontalAlignment="LEFT" layoutColumn="1" layoutHeight="22" layoutHorizontalAlignment="CENTER" layoutRow="4" layoutWidth="200" margin="3,5,5,5" verticalAlignment="CENTER" visible="visible" borderColor="#D3DBDF,#D3DBDF,#D3DBDF,#D3DBDF" borderRadius="1,1,1,1" borderWidth="1,1,1,1" text="PROJECT_STATUS" textSize="14"></resource:TextField>
+      <resource:TextField id="PROJECT_VALUE" horizontalAlignment="LEFT" layoutColumn="1" layoutHeight="22" layoutHorizontalAlignment="CENTER" layoutRow="5" layoutWidth="200" margin="3,5,5,5" verticalAlignment="CENTER" borderColor="#D3DBDF,#D3DBDF,#D3DBDF,#D3DBDF" borderRadius="1,1,1,1" borderWidth="1,1,1,1" text="New TextField" textSize="14"></resource:TextField>
+    </resource:GridLayout>
+  </resource:LinearLayout>
+</resource:LinearLayout>

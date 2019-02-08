@@ -1,0 +1,13 @@
+/*!
+ * top-layout
+ */
+
+top-layout>.top-layout-root {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 0;
+    background-color: #fff;
+    border: 1px solid #dddddd;
+    line-height: normal;
+    position: relative;
+}

@@ -1,0 +1,51 @@
+<resource:Menu
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:resource="http://www.tmaxsoft.com/top/SNAPSHOT/resource"
+    id="left"
+    ideUniqueId="ID6c539cab084a3693a11002b0fceae76a"
+    itemData="{DR_gnbmenu@DI_gnbmenu}"
+    menuId="left"
+    package="com.tmaxos.topyunjy.menuitem">
+        
+        
+        
+        
+        <resource:MenuItem
+        id="menuitem0"
+        itemLayoutId="MaintmaxPMSLayout"
+        text="menuitem">
+            
+            
+            
+            
+            <resource:Event
+            xsi:type="resource:MenuItemEvent"/>
+        
+        
+        
+        
+        </resource:MenuItem>
+        
+        
+        
+        
+        <resource:MenuItem
+        id="menuitem1"
+        itemLayoutId="MaintmaxPMSLayout"
+        text="menuitem">
+            
+            
+            
+            
+            <resource:Event
+            xsi:type="resource:MenuItemEvent"/>
+        
+        
+        
+        
+        </resource:MenuItem>
+
+
+
+
+</resource:Menu>

@@ -1,0 +1,63 @@
+<resource:DataModel
+    xmlns:resource="http://www.tmaxsoft.com/top/SNAPSHOT/resource"
+    id="DM_project_list"
+    ideUniqueId="ID1fda33722c403c0ca3c856c40f0df337"
+    package="com.tmaxos.topyunjy.datamodel">
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+
+
+
+        
+        
+        
+
+
+        
+        
+        
+        
+        
+        
+        
+        
+        <resource:dataField
+        fieldType="String"
+        name="DM_project_list_field0"
+        uniqueId="layout1__TableView72"/>
+
+
+        
+        
+        
+        
+        
+        
+        <resource:dataField
+        fieldType="String"
+        name="DM_project_list_field1"
+        uniqueId="layout1__TableView72"/>
+
+        
+
+
+        
+
+
+        
+        <resource:dataField
+        fieldType="String"
+        name="DM_project_list_field2"
+        uniqueId="layout1__TableView72"/>
+
+</resource:DataModel>

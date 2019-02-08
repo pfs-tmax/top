@@ -1,0 +1,58 @@
+<resource:LinearLayout xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:resource="http://www.tmaxsoft.com/top/SNAPSHOT/resource" id="layout1_" ideUniqueId="ID32db1b3f9d8c33cf97f623d039f17d25" layoutHeight="match_parent" layoutWidth="match_parent" minWidth="100" internalPageView="layout_1" webController="layout1_Logic" webControllerJs="src/crud_task/crud_task.js" orientation="vertical">
+  <resource:TextField id="TextField126" layoutHeight="22" layoutHorizontalAlignment="LEFT" layoutWidth="177" text="메인화면"></resource:TextField>
+  <resource:LinearLayout id="LinearLayout67" layoutHeight="30" layoutHorizontalAlignment="LEFT" layoutWidth="match_parent" margin="5,5,5,5">
+    <resource:GridLayout id="crud_project" horizontalAlignment="CENTER" layoutHeight="30" layoutHorizontalAlignment="LEFT" layoutWidth="320" margin="" padding="" verticalAlignment="CENTER" columns="4" rows="1" spanData="0,1,2,3">
+      <resource:Button id="c_project" horizontalAlignment="CENTER" layoutColumn="0" layoutHeight="match_parent" layoutRow="0" layoutWidth="30" margin="" verticalAlignment="CENTER" text="생성" textSize="12">
+        <resource:Event xsi:type="resource:WidgetEvent" onClick="#c_project"/>
+      </resource:Button>
+      <resource:Button id="r_project" layoutColumn="1" layoutHeight="match_parent" layoutRow="0" layoutWidth="30" text="읽기" textSize="12">
+        <resource:Event xsi:type="resource:WidgetEvent" onClick="#r_project"/>
+      </resource:Button>
+      <resource:Button id="u_project" layoutColumn="2" layoutHeight="match_parent" layoutRow="0" layoutWidth="30" text="편집" textSize="12">
+        <resource:Event xsi:type="resource:WidgetEvent" onClick="#u_project"/>
+      </resource:Button>
+      <resource:Button id="d_project" layoutColumn="3" layoutHeight="match_parent" layoutRow="0" layoutWidth="30" text="삭제" textSize="12">
+        <resource:Event xsi:type="resource:WidgetEvent" onClick="#d_project"/>
+      </resource:Button>
+    </resource:GridLayout>
+  </resource:LinearLayout>
+  <resource:AbsoluteLayout id="layout1_1" layoutHeight="500" layoutHorizontalAlignment="LEFT" layoutWidth="match_parent">
+    <resource:TableView id="project_list" layoutHeight="286" layoutLeft="11" layoutTop="28" layoutWidth="1598" itemData="{DR_project@DI_project_list}" columnResize="true" pageLength="20" pagination="true" sortable="true">
+      <resource:TableHeader id="TableHeader" layoutHeight="" layoutVerticalAlignment="CENTER" layoutWidth="match_parent">
+        <resource:HeaderColumn id="H00" layoutWidth="45" type="CHECK"></resource:HeaderColumn>
+        <resource:HeaderColumn id="H01" layoutWidth="50" text="pid" type="NORMAL"></resource:HeaderColumn>
+        <resource:HeaderColumn id="H02" layoutWidth="match_parent" text="pname" type="NORMAL"></resource:HeaderColumn>
+        <resource:HeaderColumn id="H03" layoutWidth="100" text="ptype"></resource:HeaderColumn>
+        <resource:HeaderColumn id="H04" layoutWidth="100" text="start"></resource:HeaderColumn>
+        <resource:HeaderColumn id="H05" layoutWidth="100" text="end"></resource:HeaderColumn>
+        <resource:HeaderColumn id="H06" layoutWidth="match_parent" text="administrator"></resource:HeaderColumn>
+        <resource:HeaderColumn id="H07" layoutWidth="match_parent" text="cid"></resource:HeaderColumn>
+        <resource:HeaderColumn id="H08" layoutWidth="match_parent" text="cname"></resource:HeaderColumn>
+        <resource:HeaderColumn id="H09" layoutWidth="match_parent" text="ctype"></resource:HeaderColumn>
+        <resource:HeaderColumn id="H10" layoutWidth="match_parent" text="volume"></resource:HeaderColumn>
+        <resource:HeaderColumn id="H11" layoutWidth="match_parent" text="man-month"></resource:HeaderColumn>
+        <resource:HeaderColumn id="H12" layoutWidth="match_parent" text="status"></resource:HeaderColumn>
+        <resource:HeaderColumn id="H13" layoutWidth="match_parent" text="tasks"></resource:HeaderColumn>
+      </resource:TableHeader>
+      <resource:RowItem id="RowItem" layoutVerticalAlignment="CENTER" layoutWidth="match_parent">
+        <resource:ColumnItem id="C01" layoutWidth="match_parent" text="{pid}"></resource:ColumnItem>
+        <resource:ColumnItem id="C02" layoutHorizontalAlignment="CENTER" layoutVerticalAlignment="CENTER" text="{pname}"></resource:ColumnItem>
+        <resource:ColumnItem id="C03" layoutVerticalAlignment="CENTER" text="{ptype}"></resource:ColumnItem>
+        <resource:ColumnItem id="C04" layoutVerticalAlignment="CENTER" text="{start}"></resource:ColumnItem>
+        <resource:ColumnItem id="C05" layoutVerticalAlignment="CENTER" text="{end}"></resource:ColumnItem>
+        <resource:ColumnItem id="C06" text="{administrator}"></resource:ColumnItem>
+        <resource:ColumnItem id="C07" text="{cid}"></resource:ColumnItem>
+        <resource:ColumnItem id="C08" text="{cname}"></resource:ColumnItem>
+        <resource:ColumnItem id="C09" text="{ctype}"></resource:ColumnItem>
+        <resource:ColumnItem id="C10" text="{volume}"></resource:ColumnItem>
+        <resource:ColumnItem id="C11" text="{man-month}"></resource:ColumnItem>
+        <resource:ColumnItem id="C12" text="{status}"></resource:ColumnItem>
+        <resource:ColumnItem id="C13">
+          <resource:Button id="row_task" layoutHeight="25" layoutHorizontalAlignment="CENTER" layoutVerticalAlignment="CENTER" layoutWidth="66" text="task">
+            <resource:Event xsi:type="resource:WidgetEvent" onClick="#r_task"/>
+          </resource:Button>
+        </resource:ColumnItem>
+      </resource:RowItem>
+    </resource:TableView>
+  </resource:AbsoluteLayout>
+</resource:LinearLayout>

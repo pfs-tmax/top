@@ -1,0 +1,161 @@
+<top-linearlayout id="layout1_1_c_project" layout-width="100%" layout-height="100%" min-width="600px" border-width="0px" horizontal-scroll="false" vertical-scroll="false" page="dialog_c_project" controller="layout1_1_c_projectLogic" controller-path="src/layout1/layout1_1_c_project.js" orientation="vertical">
+	<div id="layout1_1_c_project" class="top-linearlayout-root">
+		<top-linearlayout id="LinearLayout6" layout-width="600px" layout-height="auto" layout-horizontal-alignment="left" margin="20px 0px 0px 0px" border-width="0px" horizontal-scroll="false" vertical-scroll="false" orientation="horizontal">
+			<div id="LinearLayout6" class="top-linearlayout-root">
+				<top-linearlayout id="LinearLayout15" layout-width="300px" layout-height="auto" layout-horizontal-alignment="left" border-width="0px" horizontal-scroll="false" vertical-scroll="false" orientation="vertical">
+					<div id="LinearLayout15" class="top-linearlayout-root">
+						<top-gridlayout id="GridLayout314" layout-width="300px" layout-height="180px" layout-horizontal-alignment="center" margin="" border-width="0px" horizontal-scroll="false" vertical-scroll="false" rows="6" cols="2">
+							<div id="GridLayout314" class="top-gridlayout-root">
+								<top-textview id="TextField0" layout-width="auto" layout-height="22px" layout-horizontal-alignment="right" layout-vertical-alignment="middle" layout-row="1" layout-column="1" margin="0px 5px 0px 5px" border-width="0px" text="Project ID">
+									<span id="TextField0" class="top-textview-root"><a class="top-textview-url"></a></span>
+								</top-textview>
+								<top-textview id="TextField1" class="" layout-width="auto" layout-height="22px" layout-horizontal-alignment="right" layout-vertical-alignment="middle" layout-row="2" layout-column="1" margin="0px 5px 0px 5px" border-width="0px" text="Project Name">
+									<span id="TextField1" class="top-textview-root"><a class="top-textview-url"></a></span>
+								</top-textview>
+								<top-textview id="TextField2" layout-width="auto" layout-height="22px" layout-horizontal-alignment="right" layout-vertical-alignment="middle" layout-row="3" layout-column="1" margin="0px 5px 0px 5px" border-width="0px" text="Project type">
+									<span id="TextField2" class="top-textview-root"><a class="top-textview-url"></a></span>
+								</top-textview>
+								<top-textview id="TextField3" layout-width="auto" layout-height="22px" layout-horizontal-alignment="right" layout-vertical-alignment="middle" layout-row="4" layout-column="1" margin="0px 5px 0px 5px" border-width="0px" text="Starts from">
+									<span id="TextField3" class="top-textview-root"><a class="top-textview-url"></a></span>
+								</top-textview>
+								<top-textview id="TextField4" layout-width="auto" layout-height="22px" layout-horizontal-alignment="right" layout-vertical-alignment="middle" layout-row="5" layout-column="1" margin="0px 5px 0px 5px" border-width="0px" text="Ends to">
+									<span id="TextField4" class="top-textview-root"><a class="top-textview-url"></a></span>
+								</top-textview>
+								<top-textview id="TextField5" layout-width="auto" layout-height="22px" layout-horizontal-alignment="right" layout-vertical-alignment="middle" layout-row="6" layout-column="1" margin="0px 5px 0px 5px" border-width="0px" text="Administrator">
+									<span id="TextField5" class="top-textview-root"><a class="top-textview-url"></a></span>
+								</top-textview>
+								<top-textfield id="PROJECT_NO" layout-width="200px" layout-height="22px" layout-horizontal-alignment="left" layout-vertical-alignment="middle" layout-row="1" layout-column="2" margin="" text="" hint="ID" prevent-key="false" password="false" required="false">
+									<div class="top-textfield-root">
+										<form autocomplete="off" onsubmit="return false;">
+											<input id="PROJECT_NO" class="top-textfield-text" type="text">
+											<span class="top-textfield-icon" style="display:none;"></span>
+										</form>
+									</div>
+								</top-textfield>
+								<top-textfield id="c_pname" layout-width="200px" layout-height="22px" layout-horizontal-alignment="left" layout-vertical-alignment="middle" layout-row="2" layout-column="2" text="" hint="Project Name" prevent-key="false" password="false" required="false">
+									<div class="top-textfield-root">
+										<form autocomplete="off" onsubmit="return false;">
+											<input id="c_pname" class="top-textfield-text" type="text">
+											<span class="top-textfield-icon" style="display:none;"></span>
+										</form>
+									</div>
+								</top-textfield>
+								<top-selectbox id="c_type" layout-width="200px" layout-height="22px" layout-horizontal-alignment="left" layout-vertical-alignment="middle" layout-row="3" layout-column="2" margin="" border-width="0px" horizontal-scroll="false" vertical-scroll="false" separator-visible="true" virtual-scroll="false" item-clicktype="click">
+									<div id="c_type" class="top-selectbox-root">
+
+																	</div>
+							</top-selectbox>
+								<top-datepicker id="c_start" layout-width="200px" layout-height="22px" layout-horizontal-alignment="left" layout-vertical-alignment="middle" layout-row="4" layout-column="2" border-width="0px" first-day="0" format="yy-mm-dd" select-month="true" select-year="true">
+									<div class="top-datepicker-root">
+										<input id="c_start" class="top-datepicker-input" type="text">
+										<i class="top-datepicker-icon"></i>
+									</div>
+								</top-datepicker>
+								<top-datepicker id="c_end" layout-width="200px" layout-height="22px" layout-horizontal-alignment="left" layout-vertical-alignment="middle" layout-row="5" layout-column="2" border-width="0px" first-day="0" format="yy-mm-dd" select-month="true" select-year="true">
+									<div class="top-datepicker-root">
+										<input id="c_end" class="top-datepicker-input" type="text">
+										<i class="top-datepicker-icon"></i>
+									</div>
+								</top-datepicker>
+								<top-selectbox id="c_administrator" layout-width="200px" layout-height="22px" layout-horizontal-alignment="left" layout-vertical-alignment="middle" layout-row="6" layout-column="2" border-width="0px" horizontal-scroll="false" vertical-scroll="false" separator-visible="true" virtual-scroll="false" item-clicktype="click">
+									<div id="c_administrator" class="top-selectbox-root">
+
+																	</div>
+							</top-selectbox>
+													</div>
+					</top-gridlayout>
+									</div>
+			</top-linearlayout>
+				<top-linearlayout id="LinearLayout37" layout-width="match_parent" layout-height="auto" layout-vertical-alignment="top" border-width="0px" horizontal-scroll="false" vertical-scroll="false" orientation="vertical">
+					<div id="LinearLayout37" class="top-linearlayout-root">
+						<top-gridlayout id="GridLayout98" layout-width="300px" layout-height="180px" layout-horizontal-alignment="left" border-width="0px" horizontal-scroll="false" vertical-scroll="false" rows="6" cols="2">
+							<div id="GridLayout98" class="top-gridlayout-root">
+								<top-textview id="TextField0_1" layout-width="auto" layout-height="22px" layout-horizontal-alignment="right" layout-vertical-alignment="middle" layout-row="1" layout-column="1" margin="0px 5px 0px 5px" border-width="0px" text="Customer ID">
+									<span id="TextField0_1" class="top-textview-root"><a class="top-textview-url"></a></span>
+								</top-textview>
+								<top-textview id="TextField1_1" layout-width="auto" layout-height="22px" layout-horizontal-alignment="right" layout-vertical-alignment="middle" layout-row="2" layout-column="1" margin="0px 5px 0px 5px" border-width="0px" text="Customer">
+									<span id="TextField1_1" class="top-textview-root"><a class="top-textview-url"></a></span>
+								</top-textview>
+								<top-textview id="TextField2_1" layout-width="auto" layout-height="22px" layout-horizontal-alignment="right" layout-vertical-alignment="middle" layout-row="3" layout-column="1" margin="0px 5px 0px 5px" border-width="0px" text="Customer type">
+									<span id="TextField2_1" class="top-textview-root"><a class="top-textview-url"></a></span>
+								</top-textview>
+								<top-textview id="TextField3_1" layout-width="auto" layout-height="22px" layout-horizontal-alignment="right" layout-vertical-alignment="middle" layout-row="4" layout-column="1" margin="0px 5px 0px 5px" border-width="0px" text="Volume (￦)">
+									<span id="TextField3_1" class="top-textview-root"><a class="top-textview-url"></a></span>
+								</top-textview>
+								<top-textview id="TextField4_1" layout-width="auto" layout-height="22px" layout-horizontal-alignment="right" layout-vertical-alignment="middle" layout-row="5" layout-column="1" margin="0px 5px 0px 5px" border-width="0px" text="Man-month">
+									<span id="TextField4_1" class="top-textview-root"><a class="top-textview-url"></a></span>
+								</top-textview>
+								<top-textview id="TextField4_2" layout-width="auto" layout-height="22px" layout-horizontal-alignment="right" layout-vertical-alignment="middle" layout-row="6" layout-column="1" margin="0px 5px 0px 5px" border-width="0px" text="Status">
+									<span id="TextField4_2" class="top-textview-root"><a class="top-textview-url"></a></span>
+								</top-textview>
+								<top-textfield id="c_cid" layout-width="200px" layout-height="22px" layout-horizontal-alignment="left" layout-vertical-alignment="middle" layout-row="1" layout-column="2" margin="" on-click="com.tmaxos.topyunjy.layout.layout1_1_c_projectLogic." text="" hint="Customer ID" prevent-key="false" password="false" required="false">
+									<div class="top-textfield-root">
+										<form autocomplete="off" onsubmit="return false;">
+											<input id="c_cid" class="top-textfield-text" type="text">
+											<span class="top-textfield-icon" style="display:none;"></span>
+										</form>
+									</div>
+								</top-textfield>
+								<top-textfield id="c_cname" layout-width="200px" layout-height="22px" layout-horizontal-alignment="left" layout-vertical-alignment="middle" layout-row="2" layout-column="2" text="" hint="Customer Name" prevent-key="false" password="false" required="false">
+									<div class="top-textfield-root">
+										<form autocomplete="off" onsubmit="return false;">
+											<input id="c_cname" class="top-textfield-text" type="text">
+											<span class="top-textfield-icon" style="display:none;"></span>
+										</form>
+									</div>
+								</top-textfield>
+								<top-selectbox id="c_ctype" layout-width="200px" layout-height="22px" layout-horizontal-alignment="left" layout-vertical-alignment="middle" layout-row="3" layout-column="2" margin="" border-width="0px" horizontal-scroll="false" vertical-scroll="false" separator-visible="true" virtual-scroll="false" item-clicktype="click">
+									<div id="c_ctype" class="top-selectbox-root">
+
+																	</div>
+							</top-selectbox>
+								<top-textfield id="c_volume" layout-width="200px" layout-height="22px" layout-horizontal-alignment="left" layout-vertical-alignment="middle" layout-row="5" layout-column="2" text="" hint="will be updated" readonly="true" prevent-key="false" password="false" required="false">
+									<div class="top-textfield-root">
+										<form autocomplete="off" onsubmit="return false;">
+											<input id="c_volume" class="top-textfield-text" type="text">
+											<span class="top-textfield-icon" style="display:none;"></span>
+										</form>
+									</div>
+								</top-textfield>
+								<top-textfield id="c_man-month" layout-width="200px" layout-height="22px" layout-horizontal-alignment="left" layout-vertical-alignment="middle" layout-row="4" layout-column="2" text="" hint="1,000,000,000" prevent-key="false" password="false" required="false">
+									<div class="top-textfield-root">
+										<form autocomplete="off" onsubmit="return false;">
+											<input id="c_man-month" class="top-textfield-text" type="text">
+											<span class="top-textfield-icon" style="display:none;"></span>
+										</form>
+									</div>
+								</top-textfield>
+								<top-textfield id="c_status" layout-width="200px" layout-height="22px" layout-horizontal-alignment="left" layout-vertical-alignment="middle" layout-row="5" layout-column="2" text="" hint="create" readonly="true" prevent-key="false" password="false" required="false">
+									<div class="top-textfield-root">
+										<form autocomplete="off" onsubmit="return false;">
+											<input id="c_status" class="top-textfield-text" type="text">
+											<span class="top-textfield-icon" style="display:none;"></span>
+										</form>
+									</div>
+								</top-textfield>
+													</div>
+					</top-gridlayout>
+									</div>
+			</top-linearlayout>
+					</div>
+	</top-linearlayout>
+		<top-linearlayout id="LinearLayout138" layout-width="600px" layout-height="87px" layout-vertical-alignment="bottom" border-width="0px" horizontal-scroll="false" vertical-scroll="false" orientation="vertical">
+			<div id="LinearLayout138" class="top-linearlayout-root">
+				<top-gridlayout id="GridLayout60" layout-width="160px" layout-height="30px" layout-horizontal-alignment="right" layout-vertical-alignment="bottom" margin="20px 0px 0px 0px" border-width="0px" horizontal-scroll="false" vertical-scroll="false" rows="1" cols="2">
+					<div id="GridLayout60" class="top-gridlayout-root">
+						<top-button id="Button54" layout-width="60px" layout-height="30px" layout-horizontal-alignment="center" layout-vertical-alignment="middle" layout-row="1" layout-column="1" on-click="com.tmaxos.topyunjy.layout.layout1_1_c_projectLogic." text="생성">
+							<button id="Button54" class="top-button-root" type="button">
+								<span></span>
+							</button>
+						</top-button>
+						<top-button id="Button94" layout-width="60px" layout-height="30px" layout-horizontal-alignment="center" layout-vertical-alignment="middle" layout-row="1" layout-column="2" on-click="com.tmaxos.topyunjy.layout.layout1_1_c_projectLogic." text="취소">
+							<button id="Button94" class="top-button-root" type="button">
+								<span></span>
+							</button>
+						</top-button>
+									</div>
+			</top-gridlayout>
+					</div>
+	</top-linearlayout>
+	</div>
+</top-linearlayout>

@@ -1,0 +1,31 @@
+<resource:PageViews
+        xmlns:resource="http://www.tmaxsoft.com/top/SNAPSHOT/resource">
+            
+            
+            
+            
+            
+            <resource:PageView
+            id="MaintmaxPMSPage"
+            ideUniqueId="ID5a76d0fce76137d2b4b4652b50e8cbdf"
+            content="MaintmaxPMSLayout"
+            package="com.tmaxos.topyunjy.pageview"/>
+
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            <resource:PageView
+            id="layout1_1_c_project"
+            ideUniqueId="IDe12774bbac57383d812be104c2122452"
+            content="layout1_1_c_project"
+            package="com.tmaxos.topyunjy.pageview"/>
+
+
+</resource:PageViews>

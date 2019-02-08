@@ -1,0 +1,17 @@
+/*!
+ * top-spinner_ie
+ */
+
+top-spinner .top-spinner-root .top-spinner-button.up:before {
+    font-family: "tmaxop";
+    content: "\e914";
+    bottom: 0.2em;
+    font-size: 1.4em;
+}
+
+top-spinner .top-spinner-root .top-spinner-button.down:before {
+    font-family: "tmaxop";
+    content: "\e911";
+    top: -0.2em;
+    font-size: 1.4em;
+}

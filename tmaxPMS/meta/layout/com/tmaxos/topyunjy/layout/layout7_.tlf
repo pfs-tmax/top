@@ -1,0 +1,15 @@
+<resource:LinearLayout
+    xmlns:resource="http://www.tmaxsoft.com/top/SNAPSHOT/resource"
+    id="layout7_"
+    ideUniqueId="ID601630b596a939878ed4483f62c20974"
+    layoutHeight="match_parent"
+    layoutWidth="match_parent"
+    orientation="vertical">
+        <resource:TextField
+        id="TextField20"
+        layoutHeight="22"
+        layoutHorizontalAlignment="LEFT"
+        layoutWidth="177"
+        text="이슈관리">
+        </resource:TextField>
+</resource:LinearLayout>

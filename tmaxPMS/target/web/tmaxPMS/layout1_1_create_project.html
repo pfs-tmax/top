@@ -1,0 +1,196 @@
+<top-linearlayout id="layout1_1_create_project" layout-width="100%" layout-height="100%" border-width="0px" horizontal-scroll="false" vertical-scroll="false" controller="layout1_1_create_projectLogic" controller-path="src/search_info/info.js" orientation="vertical">
+	<div id="layout1_1_create_project" class="top-linearlayout-root">
+		<top-linearlayout id="LinearLayout0" layout-width="match_parent" layout-height="270px" layout-horizontal-alignment="left" padding="" margin="10px 10px 10px 10px" border-width="0px" horizontal-scroll="false" vertical-scroll="false" orientation="horizontal">
+			<div id="LinearLayout0" class="top-linearlayout-root">
+				<top-gridlayout id="GridLayout0" layout-width="350px" layout-height="263px" layout-horizontal-alignment="left" layout-vertical-alignment="top" border-width="0px" horizontal-scroll="false" vertical-scroll="false" rows="8" cols="2">
+					<div id="GridLayout0" class="top-gridlayout-root">
+						<top-textview id="TextView0" class="" layout-width="100px" layout-height="22px" layout-horizontal-alignment="right" layout-row="1" layout-column="1" padding="" margin="3px 5px 5px 5px" horizontal-alignment="right" vertical-alignment="middle" border-color="rgba(0,0,0,1.0) rgba(172,172,172,1.0) rgba(0,0,0,1.0) rgba(0,0,0,1.0)" border-width="0px" border-radius="" text="Project No">
+							<span id="TextView0" class="top-textview-root"><a class="top-textview-url"></a></span>
+						</top-textview>
+						<top-textview id="TextView1" class="" layout-width="100px" layout-height="22px" layout-horizontal-alignment="right" layout-row="2" layout-column="1" padding="" margin="5px 5px 5px 5px" horizontal-alignment="right" vertical-alignment="middle" border-width="0px" border-radius="" text="Project Name">
+							<span id="TextView1" class="top-textview-root"><a class="top-textview-url"></a></span>
+						</top-textview>
+						<top-textview id="TextView2" class="" layout-width="100px" layout-height="22px" layout-horizontal-alignment="right" layout-row="3" layout-column="1" margin="5px 5px 5px 5px" horizontal-alignment="right" vertical-alignment="middle" border-width="0px" border-radius="" text="Project Type">
+							<span id="TextView2" class="top-textview-root"><a class="top-textview-url"></a></span>
+						</top-textview>
+						<top-textview id="TextView3" class="" layout-width="100px" layout-height="22px" layout-horizontal-alignment="right" layout-row="4" layout-column="1" margin="5px 5px 5px 5px" horizontal-alignment="right" vertical-alignment="middle" border-width="0px" border-radius="" text="CS">
+							<span id="TextView3" class="top-textview-root"><a class="top-textview-url"></a></span>
+						</top-textview>
+						<top-textview id="TextView4" class="" layout-width="100px" layout-height="22px" layout-horizontal-alignment="right" layout-row="5" layout-column="1" margin="5px 5px 5px 5px" horizontal-alignment="right" vertical-alignment="middle" border-width="0px" border-radius="" text="PM">
+							<span id="TextView4" class="top-textview-root"><a class="top-textview-url"></a></span>
+						</top-textview>
+						<top-textview id="TextView5" class="" layout-width="100px" layout-height="22px" layout-horizontal-alignment="right" layout-row="6" layout-column="1" margin="5px 5px 5px 5px" horizontal-alignment="right" vertical-alignment="middle" border-width="0px" border-radius="" text="Start">
+							<span id="TextView5" class="top-textview-root"><a class="top-textview-url"></a></span>
+						</top-textview>
+						<top-textview id="TextView6" class="" layout-width="auto" layout-height="22px" layout-horizontal-alignment="right" layout-row="7" layout-column="1" margin="5px 5px 5px 5px" horizontal-alignment="right" vertical-alignment="middle" border-width="0px" border-radius="" text="End">
+							<span id="TextView6" class="top-textview-root"><a class="top-textview-url"></a></span>
+						</top-textview>
+						<top-textfield id="PROJECT_NO" layout-width="200px" layout-height="22px" layout-horizontal-alignment="center" layout-row="1" layout-column="2" margin="3px 5px 5px 5px" horizontal-alignment="left" vertical-alignment="middle" disabled="true" border-color="rgba(211,219,223,1.0) rgba(211,219,223,1.0) rgba(211,219,223,1.0) rgba(211,219,223,1.0)" border-width="1px 1px 1px 1px" border-radius="1px 1px 1px 1px" text="" hint="Yet Assigned" prevent-key="false" password="false" required="false">
+							<div class="top-textfield-root">
+								<form autocomplete="off" onsubmit="return false;">
+									<input id="PROJECT_NO" class="top-textfield-text" type="text">
+									<span class="top-textfield-icon" style="display:none;"></span>
+								</form>
+							</div>
+						</top-textfield>
+						<top-textfield id="PROJECT_NAME" layout-width="200px" layout-height="22px" layout-horizontal-alignment="center" layout-row="2" layout-column="2" margin="3px 5px 5px 5px" horizontal-alignment="left" vertical-alignment="middle" border-color="rgba(211,219,223,1.0) rgba(211,219,223,1.0) rgba(211,219,223,1.0) rgba(211,219,223,1.0)" border-width="1px 1px 1px 1px" border-radius="1px 1px 1px 1px" text="" prevent-key="false" password="false" required="false">
+							<div class="top-textfield-root">
+								<form autocomplete="off" onsubmit="return false;">
+									<input id="PROJECT_NAME" class="top-textfield-text" type="text">
+									<span class="top-textfield-icon" style="display:none;"></span>
+								</form>
+							</div>
+						</top-textfield>
+						<top-selectbox id="PROJECT_TYPE" layout-width="200px" layout-height="22px" layout-horizontal-alignment="center" layout-vertical-alignment="middle" layout-row="3" layout-column="2" margin="3px 5px 5px 5px" horizontal-alignment="center" vertical-alignment="middle" border-width="0px" on-click="search_project_type" on-focus="com.tmaxos.topyunjy.layout.layout1_1_create_projectLogic." horizontal-scroll="false" vertical-scroll="false" data-model='{"items":"DR_project_type.DI_project_type"}' separator-visible="true" virtual-scroll="false" on-change="com.tmaxos.topyunjy.layout.layout1_1_create_projectLogic." item-clicktype="click">
+							<div id="PROJECT_TYPE" class="top-selectbox-root">
+
+								<top-widgetitem id="PROJECT_TYPE_item" border-width="0px" text="{PROJECT_TYPE}" selected="false">
+
+																</top-widgetitem>
+													</div>
+					</top-selectbox>
+						<top-textfield id="EMP_NAME_CS" layout-width="200px" layout-height="22px" layout-horizontal-alignment="center" layout-row="4" layout-column="2" margin="3px 5px 5px 5px" horizontal-alignment="left" vertical-alignment="middle" border-color="rgba(211,219,223,1.0) rgba(211,219,223,1.0) rgba(211,219,223,1.0) rgba(211,219,223,1.0)" border-width="1px 1px 1px 1px" border-radius="1px 1px 1px 1px" on-click="search_emp" text="" prevent-key="false" password="false" required="false">
+							<div class="top-textfield-root">
+								<form autocomplete="off" onsubmit="return false;">
+									<input id="EMP_NAME_CS" class="top-textfield-text" type="text">
+									<span class="top-textfield-icon" style="display:none;"></span>
+								</form>
+							</div>
+						</top-textfield>
+						<top-textfield id="EMP_NAME_PM" layout-width="200px" layout-height="22px" layout-horizontal-alignment="center" layout-row="5" layout-column="2" margin="3px 5px 5px 5px" horizontal-alignment="left" vertical-alignment="middle" border-color="rgba(211,219,223,1.0) rgba(211,219,223,1.0) rgba(211,219,223,1.0) rgba(211,219,223,1.0)" border-width="1px 1px 1px 1px" border-radius="1px 1px 1px 1px" on-click="search_emp" text="" prevent-key="false" password="false" required="false">
+							<div class="top-textfield-root">
+								<form autocomplete="off" onsubmit="return false;">
+									<input id="EMP_NAME_PM" class="top-textfield-text" type="text">
+									<span class="top-textfield-icon" style="display:none;"></span>
+								</form>
+							</div>
+						</top-textfield>
+						<top-datepicker id="PROJECT_STARTDATE" description="" layout-width="200px" layout-height="22px" layout-horizontal-alignment="center" layout-vertical-alignment="middle" layout-row="6" layout-column="2" margin="3px 5px 5px 5px" horizontal-alignment="center" border-width="0px" date="" first-day="0" format="yy-mm-dd" select-month="true" select-year="true">
+							<div class="top-datepicker-root">
+								<input id="PROJECT_STARTDATE" class="top-datepicker-input" type="text">
+								<i class="top-datepicker-icon"></i>
+							</div>
+						</top-datepicker>
+						<top-datepicker id="PROJECT_ENDDATE" layout-width="200px" layout-height="22px" layout-horizontal-alignment="center" layout-vertical-alignment="middle" layout-row="7" layout-column="2" margin="3px 5px 5px 5px" horizontal-alignment="center" border-width="0px" first-day="0" format="yy-mm-dd" select-month="true" select-year="true">
+							<div class="top-datepicker-root">
+								<input id="PROJECT_ENDDATE" class="top-datepicker-input" type="text">
+								<i class="top-datepicker-icon"></i>
+							</div>
+						</top-datepicker>
+						<top-textfield id="EMP_NO_CS" layout-width="177px" layout-height="22px" layout-row="8" layout-column="1" visible="visible" border-color="rgba(211,219,223,1.0) rgba(211,219,223,1.0) rgba(211,219,223,1.0) rgba(211,219,223,1.0)" border-width="1px 1px 1px 1px" border-radius="1px 1px 1px 1px" text="EMP_NO_CS" prevent-key="false" password="false" required="false">
+							<div class="top-textfield-root">
+								<form autocomplete="off" onsubmit="return false;">
+									<input id="EMP_NO_CS" class="top-textfield-text" type="text">
+									<span class="top-textfield-icon" style="display:none;"></span>
+								</form>
+							</div>
+						</top-textfield>
+						<top-textfield id="EMP_NO_PM" layout-width="177px" layout-height="22px" layout-row="8" layout-column="2" visible="visible" border-color="rgba(211,219,223,1.0) rgba(211,219,223,1.0) rgba(211,219,223,1.0) rgba(211,219,223,1.0)" border-width="1px 1px 1px 1px" border-radius="1px 1px 1px 1px" text="EMP_NO_PM" prevent-key="false" password="false" required="false">
+							<div class="top-textfield-root">
+								<form autocomplete="off" onsubmit="return false;">
+									<input id="EMP_NO_PM" class="top-textfield-text" type="text">
+									<span class="top-textfield-icon" style="display:none;"></span>
+								</form>
+							</div>
+						</top-textfield>
+									</div>
+			</top-gridlayout>
+				<top-linearlayout id="LinearLayout_space" layout-width="10px" layout-height="263px" layout-vertical-alignment="top" margin="0px 0px 0px 10px" border-color="rgba(0,0,0,1.0) rgba(0,0,0,1.0) rgba(0,0,0,1.0) rgba(225,225,225,1.0)" border-width="0px 0px 0px 2px" horizontal-scroll="false" vertical-scroll="false" orientation="vertical">
+					<div id="LinearLayout_space" class="top-linearlayout-root">
+									</div>
+			</top-linearlayout>
+				<top-gridlayout id="GridLayout1" layout-width="350px" layout-height="263px" layout-horizontal-alignment="left" layout-vertical-alignment="top" border-width="0px" horizontal-scroll="false" vertical-scroll="false" rows="8" cols="2">
+					<div id="GridLayout1" class="top-gridlayout-root">
+						<top-textview id="TextView0_1" class="" layout-width="100px" layout-height="22px" layout-horizontal-alignment="right" layout-row="1" layout-column="1" padding="" margin="3px 5px 5px 5px" horizontal-alignment="right" vertical-alignment="middle" border-color="rgba(0,0,0,1.0) rgba(172,172,172,1.0) rgba(0,0,0,1.0) rgba(0,0,0,1.0)" border-width="0px" border-radius="" text="Customer">
+							<span id="TextView0_1" class="top-textview-root"><a class="top-textview-url"></a></span>
+						</top-textview>
+						<top-textview id="TextView1_1" class="" layout-width="100px" layout-height="22px" layout-horizontal-alignment="right" layout-row="2" layout-column="1" padding="" margin="5px 5px 5px 5px" horizontal-alignment="right" vertical-alignment="middle" border-width="0px" border-radius="" text="Customer Admin">
+							<span id="TextView1_1" class="top-textview-root"><a class="top-textview-url"></a></span>
+						</top-textview>
+						<top-textview id="TextView2_1" class="" layout-width="100px" layout-height="22px" layout-horizontal-alignment="right" layout-row="3" layout-column="1" margin="5px 5px 5px 5px" horizontal-alignment="right" vertical-alignment="middle" border-width="0px" border-radius="" text="Customer Type">
+							<span id="TextView2_1" class="top-textview-root"><a class="top-textview-url"></a></span>
+						</top-textview>
+						<top-textview id="TextView3_1" class="" layout-width="100px" layout-height="22px" layout-horizontal-alignment="right" layout-row="4" layout-column="1" margin="5px 5px 5px 5px" horizontal-alignment="right" vertical-alignment="middle" border-width="0px" border-radius="" text="Project Service">
+							<span id="TextView3_1" class="top-textview-root"><a class="top-textview-url"></a></span>
+						</top-textview>
+						<top-textview id="TextView4_1" class="" layout-width="100px" layout-height="22px" layout-horizontal-alignment="right" layout-row="5" layout-column="1" margin="5px 5px 5px 5px" horizontal-alignment="right" vertical-alignment="middle" border-width="0px" border-radius="" text="Project Status">
+							<span id="TextView4_1" class="top-textview-root"><a class="top-textview-url"></a></span>
+						</top-textview>
+						<top-textview id="TextView5_1" class="" layout-width="100px" layout-height="22px" layout-horizontal-alignment="right" layout-row="6" layout-column="1" margin="5px 5px 5px 5px" horizontal-alignment="right" vertical-alignment="middle" border-width="0px" border-radius="" text="Project Value">
+							<span id="TextView5_1" class="top-textview-root"><a class="top-textview-url"></a></span>
+						</top-textview>
+						<top-textview id="TextView6_1" class="" layout-width="auto" layout-height="22px" layout-horizontal-alignment="right" layout-row="7" layout-column="1" margin="5px 5px 5px 5px" horizontal-alignment="right" vertical-alignment="middle" border-width="0px" border-radius="" text=" ">
+							<span id="TextView6_1" class="top-textview-root"><a class="top-textview-url"></a></span>
+						</top-textview>
+						<top-textfield id="PROJECT_CUSTOMER" layout-width="200px" layout-height="22px" layout-horizontal-alignment="center" layout-row="1" layout-column="2" margin="3px 5px 5px 5px" horizontal-alignment="left" vertical-alignment="middle" border-color="rgba(211,219,223,1.0) rgba(211,219,223,1.0) rgba(211,219,223,1.0) rgba(211,219,223,1.0)" border-width="1px 1px 1px 1px" border-radius="1px 1px 1px 1px" text="" prevent-key="false" password="false" required="false">
+							<div class="top-textfield-root">
+								<form autocomplete="off" onsubmit="return false;">
+									<input id="PROJECT_CUSTOMER" class="top-textfield-text" type="text">
+									<span class="top-textfield-icon" style="display:none;"></span>
+								</form>
+							</div>
+						</top-textfield>
+						<top-textfield id="PROJECT_CUSADMIN" layout-width="200px" layout-height="22px" layout-horizontal-alignment="center" layout-row="2" layout-column="2" margin="3px 5px 5px 5px" horizontal-alignment="left" vertical-alignment="middle" border-color="rgba(211,219,223,1.0) rgba(211,219,223,1.0) rgba(211,219,223,1.0) rgba(211,219,223,1.0)" border-width="1px 1px 1px 1px" border-radius="1px 1px 1px 1px" text="" prevent-key="false" password="false" required="false">
+							<div class="top-textfield-root">
+								<form autocomplete="off" onsubmit="return false;">
+									<input id="PROJECT_CUSADMIN" class="top-textfield-text" type="text">
+									<span class="top-textfield-icon" style="display:none;"></span>
+								</form>
+							</div>
+						</top-textfield>
+						<top-selectbox id="PROJECT_CUSTYPE" layout-width="200px" layout-height="22px" layout-horizontal-alignment="center" layout-vertical-alignment="middle" layout-row="3" layout-column="2" margin="3px 5px 5px 5px" horizontal-alignment="center" vertical-alignment="middle" border-width="0px" horizontal-scroll="false" vertical-scroll="false" separator-visible="true" virtual-scroll="false" item-clicktype="click">
+							<div id="PROJECT_CUSTYPE" class="top-selectbox-root">
+
+													</div>
+					</top-selectbox>
+						<top-selectbox id="PROJECT_SERVICE" layout-width="200px" layout-height="22px" layout-horizontal-alignment="center" layout-vertical-alignment="middle" layout-row="4" layout-column="2" margin="3px 5px 5px 5px" horizontal-alignment="center" vertical-alignment="middle" border-width="0px" horizontal-scroll="false" vertical-scroll="false" separator-visible="true" virtual-scroll="false" item-clicktype="click">
+							<div id="PROJECT_SERVICE" class="top-selectbox-root">
+
+													</div>
+					</top-selectbox>
+						<top-textfield id="PROJECT_STATUS" layout-width="200px" layout-height="22px" layout-horizontal-alignment="center" layout-row="5" layout-column="2" margin="3px 5px 5px 5px" horizontal-alignment="left" vertical-alignment="middle" disabled="true" visible="visible" border-color="rgba(211,219,223,1.0) rgba(211,219,223,1.0) rgba(211,219,223,1.0) rgba(211,219,223,1.0)" border-width="1px 1px 1px 1px" border-radius="1px 1px 1px 1px" text="PROJECT_STATUS" prevent-key="false" password="false" required="false">
+							<div class="top-textfield-root">
+								<form autocomplete="off" onsubmit="return false;">
+									<input id="PROJECT_STATUS" class="top-textfield-text" type="text">
+									<span class="top-textfield-icon" style="display:none;"></span>
+								</form>
+							</div>
+						</top-textfield>
+						<top-textfield id="PROJECT_VALUE" layout-width="200px" layout-height="22px" layout-horizontal-alignment="center" layout-row="6" layout-column="2" margin="3px 5px 5px 5px" horizontal-alignment="left" vertical-alignment="middle" border-color="rgba(211,219,223,1.0) rgba(211,219,223,1.0) rgba(211,219,223,1.0) rgba(211,219,223,1.0)" border-width="1px 1px 1px 1px" border-radius="1px 1px 1px 1px" text="" prevent-key="false" password="false" required="false">
+							<div class="top-textfield-root">
+								<form autocomplete="off" onsubmit="return false;">
+									<input id="PROJECT_VALUE" class="top-textfield-text" type="text">
+									<span class="top-textfield-icon" style="display:none;"></span>
+								</form>
+							</div>
+						</top-textfield>
+									</div>
+			</top-gridlayout>
+					</div>
+	</top-linearlayout>
+		<top-linearlayout id="LinearLayout19" layout-width="auto" layout-height="216px" layout-horizontal-alignment="left" margin="10px 10px 10px 10px" border-width="0px" horizontal-scroll="false" vertical-scroll="false" orientation="vertical">
+			<div id="LinearLayout19" class="top-linearlayout-root">
+				<top-textview id="project_description" class="" layout-width="200px" layout-height="22px" layout-horizontal-alignment="left" margin="5px 5px 5px 5px" horizontal-alignment="left" vertical-alignment="middle" border-width="0px" border-radius="" text="Project Description">
+					<span id="project_description" class="top-textview-root"><a class="top-textview-url"></a></span>
+				</top-textview>
+				<top-textarea id="PROJECT_DESCRIPTION" description="" layout-width="700px" layout-height="100px" layout-horizontal-alignment="left" margin="10px 10px 10px 10px" text="" hint="Limited to 250 characters" max-length="250" prevent-key="false">
+					<textarea id="PROJECT_DESCRIPTION" class="top-textarea-root" spellcheck="false"></textarea>
+				</top-textarea>
+				<top-gridlayout id="GridLayout60" layout-width="160px" layout-height="30px" layout-horizontal-alignment="right" layout-vertical-alignment="bottom" margin="20px 0px 0px 0px" border-width="0px" horizontal-scroll="false" vertical-scroll="false" rows="1" cols="2">
+					<div id="GridLayout60" class="top-gridlayout-root">
+						<top-button id="Button54_1" layout-width="60px" layout-height="30px" layout-horizontal-alignment="center" layout-vertical-alignment="middle" layout-row="1" layout-column="1" on-click="create_project" text="생성">
+							<button id="Button54_1" class="top-button-root" type="button">
+								<span></span>
+							</button>
+						</top-button>
+						<top-button id="Button94_1" layout-width="60px" layout-height="30px" layout-horizontal-alignment="center" layout-vertical-alignment="middle" layout-row="1" layout-column="2" on-click="create_project_cancel" text="취소">
+							<button id="Button94_1" class="top-button-root" type="button">
+								<span></span>
+							</button>
+						</top-button>
+									</div>
+			</top-gridlayout>
+					</div>
+	</top-linearlayout>
+	</div>
+</top-linearlayout>

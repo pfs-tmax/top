@@ -1,0 +1,15 @@
+<resource:DataModel
+    xmlns:resource="http://www.tmaxsoft.com/top/SNAPSHOT/resource"
+    id="DM_task_list"
+    ideUniqueId="ID9e36b6e8b5dd39039c31863da86c5020"
+    package="com.tmaxos.topyunjy.datamodel">
+        <resource:dataField
+        fieldType="String"
+        name="DM_task_list_field0"/>
+        <resource:dataField
+        fieldType="String"
+        name="DM_task_list_field1"/>
+        <resource:dataField
+        fieldType="String"
+        name="DM_task_list_field2"/>
+</resource:DataModel>

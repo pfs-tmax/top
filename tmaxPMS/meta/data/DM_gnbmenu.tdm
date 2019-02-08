@@ -1,0 +1,12 @@
+<resource:DataModel
+    xmlns:resource="http://www.tmaxsoft.com/top/SNAPSHOT/resource"
+    id="DM_gnbmenu"
+    ideUniqueId="IDcfcb869de0983bc2aa9f0c68c292dac8"
+    package="com.tmaxos.topyunjy.datamodel">
+        <resource:dataField
+        fieldType="String"
+        name="DM_gnbmenu_field0"/>
+        <resource:dataField
+        fieldType="String"
+        name="DM_gnbmenu_field1"/>
+</resource:DataModel>

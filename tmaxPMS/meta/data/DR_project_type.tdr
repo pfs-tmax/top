@@ -1,0 +1,29 @@
+<resource:DataRepository
+    xmlns:resource="http://www.tmaxsoft.com/top/SNAPSHOT/resource"
+    id="DR_project_type"
+    ideUniqueId="IDeb05fb44085231c48541c8453fee6d65"
+    package="com.tmaxos.topyunjy.datarepository">
+        
+        
+        
+        <resource:ListData
+        id="DI_project_type"
+        ideUniqueId="ID7dbe9a7b473c3dcd845e309701d82e92"
+        modelId="DM_project_type">
+            
+        
+            
+            <resource:ListItem
+            modelId="DM_project_type">
+                
+                <resource:Value
+                fieldName="PROJECT_TYPE"
+                simpleValue="123"/>
+            
+            </resource:ListItem>
+        
+        </resource:ListData>
+
+
+
+</resource:DataRepository>

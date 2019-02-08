@@ -1,0 +1,15 @@
+<resource:LinearLayout
+    xmlns:resource="http://www.tmaxsoft.com/top/SNAPSHOT/resource"
+    id="layout5_"
+    ideUniqueId="ID56cc7bb7505238449ff0dabc542dd93b"
+    layoutHeight="match_parent"
+    layoutWidth="match_parent"
+    orientation="vertical">
+        <resource:TextField
+        id="TextField116"
+        layoutHeight="22"
+        layoutHorizontalAlignment="LEFT"
+        layoutWidth="177"
+        text="인력관리">
+        </resource:TextField>
+</resource:LinearLayout>

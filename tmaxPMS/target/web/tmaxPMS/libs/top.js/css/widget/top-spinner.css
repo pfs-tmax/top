@@ -1,0 +1,111 @@
+/*!
+ * top-spinner
+ */
+
+top-spinner .top-spinner-root {
+    height: 30px;
+    font-size: 14px;
+    box-sizing: border-box;
+    background-color: #fbfbfb;
+    border: 1px solid #dce3f0;
+    border-radius: 2px;
+    position: relative;
+    display: inline-block;
+    width: 110px;
+}
+
+top-spinner .top-spinner-root.active {
+    border-color: #66afe9;
+}
+
+top-spinner .top-spinner-root .top-spinner-input {
+    color: #333;
+    outline: none;
+    background-color: transparent;
+    border: none;
+    margin-left: 8px;
+    margin-right: 24px;
+    height: calc(100% - 2px);
+    width: calc(100% - 32px);
+}
+
+top-spinner .top-spinner-root .top-spinner-input[type=number]::-webkit-inner-spin-button,
+top-spinner .top-spinner-root .top-spinner-input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+top-spinner .top-spinner-root .top-spinner-button {
+    position: absolute;
+    width: 15px;
+    text-align: center;
+    color: #8c8c8d;
+}
+
+top-spinner .top-spinner-root .top-spinner-button:hover {
+    background-color: #dde8f7;
+    color: #4085ee;
+}
+
+top-spinner .top-spinner-root .top-spinner-button:active {
+    background-color: #4085ee;
+    color: #ffffff;
+}
+
+top-spinner .top-spinner-root .top-spinner-button:before {
+    font-size: 7px;
+    font-style: normal;
+    position: relative;
+}
+
+top-spinner .top-spinner-root .top-spinner-button.up {
+    top: 0;
+    right: 0;
+    border-left: 1px solid #dce3f0;
+    border-bottom: 1px solid #dce3f0;
+    border-top-right-radius: 1px;
+}
+
+top-spinner .top-spinner-root .top-spinner-button.down {
+    bottom: 0;
+    right: 0;
+    height: 13px;
+    border-left: 1px solid #dce3f0;
+    border-bottom-right-radius: 1px;
+}
+
+top-spinner[disabled]>*,
+top-spinner[readonly]>*,
+top-spinner fieldset[disabled]>* {
+    cursor: not-allowed;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+top-spinner[disabled] .top-spinner-root,
+top-spinner[readonly] .top-spinner-root,
+top-spinner fieldset[disabled] .top-spinner-root {
+    border: 1px solid #c1c1c1;
+    background-color: #f1f1f1;
+}
+
+top-spinner[disabled] .top-spinner-root .top-spinner-input,
+top-spinner[readonly] .top-spinner-root .top-spinner-input,
+top-spinner fieldset[disabled] .top-spinner-root .top-spinner-input {
+    color: #c1c1c1;
+}
+
+top-spinner[disabled] .top-spinner-root .top-spinner-button,
+top-spinner[readonly] .top-spinner-root .top-spinner-button,
+top-spinner fieldset[disabled] .top-spinner-root .top-spinner-button,
+top-spinner[disabled] .top-spinner-root .top-spinner-button:hover,
+top-spinner[readonly] .top-spinner-root .top-spinner-button:hover,
+top-spinner fieldset[disabled] .top-spinner-root .top-spinner-button:hover,
+top-spinner[disabled] .top-spinner-root .top-spinner-button:active,
+top-spinner[readonly] .top-spinner-root .top-spinner-button:active,
+top-spinner fieldset[disabled] .top-spinner-root .top-spinner-button:active {
+    background-color: #f1f1f1;
+    color: #c1c1c1;
+    border-color: #c1c1c1;
+}

@@ -1,0 +1,49 @@
+<resource:DataRepository
+    xmlns:resource="http://www.tmaxsoft.com/top/SNAPSHOT/resource"
+    id="DR_gnbmenu"
+    ideUniqueId="IDb87e3b09e1513100bcd20d594f776b6e"
+    package="com.tmaxos.topyunjy.datarepository">
+        
+        
+        
+        <resource:ListData
+        id="DI_gnbmenu"
+        ideUniqueId="IDb4a0fad2a9c83612a52e505ee5e7d7ce"
+        modelId="DM_gnbmenu">
+            
+            
+            <resource:ListItem
+            modelId="DM_gnbmenu">
+                
+                
+                <resource:Value
+                fieldName="DM_gnbmenu_field0"/>
+                
+                
+                <resource:Value
+                fieldName="DM_gnbmenu_field1"/>
+            
+            
+            </resource:ListItem>
+            
+            
+            <resource:ListItem
+            modelId="DM_gnbmenu">
+                
+                
+                <resource:Value
+                fieldName="DM_gnbmenu_field0"/>
+                
+                
+                <resource:Value
+                fieldName="DM_gnbmenu_field1"/>
+            
+            
+            </resource:ListItem>
+        
+        
+        </resource:ListData>
+
+
+
+</resource:DataRepository>

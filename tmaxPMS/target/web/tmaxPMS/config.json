@@ -1,0 +1,22 @@
+{
+	"name" : "New Window",
+	"developer" : "",
+	"indexPageId" : "MaintmaxPMSPage",
+	"css": ["libs/top_ide.css"],
+	"compatibleWithTOP": "true",
+	"appId":"tmaxPMS",
+	"appName":"tmaxPMS",
+	"appVersion":"1.0.0.0"
+	,
+	"debug": {
+		"livereload": {
+			"host": "localhost",
+			"port": "5279"
+		}
+	}
+	,
+	"deploy": {
+		"common": false,
+		"useDefaultFont": true
+	}
+}

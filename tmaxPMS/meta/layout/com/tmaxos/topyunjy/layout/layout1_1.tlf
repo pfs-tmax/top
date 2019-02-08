@@ -1,0 +1,19 @@
+<resource:LinearLayout
+    xmlns:resource="http://www.tmaxsoft.com/top/SNAPSHOT/resource"
+    id="layout1_1"
+    ideUniqueId="IDd69012bd75593796b633350d28aa1391"
+    layoutHeight="match_parent"
+    layoutWidth="match_parent"
+    internalPageView="layout_1_1"
+    orientation="vertical">
+        
+        <resource:TextField
+        id="TextField157"
+        layoutHeight="22"
+        layoutHorizontalAlignment="LEFT"
+        layoutWidth="177"
+        text="메인화면하위">
+        
+        </resource:TextField>
+
+</resource:LinearLayout>

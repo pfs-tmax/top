@@ -1,0 +1,114 @@
+<top-linearlayout id="search_emp" layout-width="100%" layout-height="100%" min-width="" min-height="" border-width="0px" horizontal-scroll="false" vertical-scroll="false" page="dialog_search_emp" controller="search_empLogic" controller-path="src/search_info/info.js" orientation="vertical">
+	<div id="search_emp" class="top-linearlayout-root">
+		<top-gridlayout id="GridLayout243" layout-width="296px" layout-height="48px" layout-horizontal-alignment="left" border-width="0px" horizontal-scroll="false" vertical-scroll="false" rows="2" cols="2">
+			<div id="GridLayout243" class="top-gridlayout-root">
+				<top-textfield id="EMP_NAME" class="out_textfield" layout-width="177px" layout-height="22px" layout-horizontal-alignment="left" layout-row="1" layout-column="1" border-color="rgba(211,219,223,1.0) rgba(211,219,223,1.0) rgba(211,219,223,1.0) rgba(211,219,223,1.0)" border-width="1px 1px 1px 1px" border-radius="1px 1px 1px 1px" text="" hint="사원명" prevent-key="false" password="false" required="false" title="사원명 검색">
+					<div class="top-textfield-root">
+						<form autocomplete="off" onsubmit="return false;">
+							<input id="EMP_NAME" class="top-textfield-text" type="text">
+							<span class="top-textfield-icon" style="display:none;"></span>
+						</form>
+					</div>
+				</top-textfield>
+				<top-button id="btn" layout-width="auto" layout-height="auto" layout-row="1" layout-column="2" on-click="search_emp" text="New Button">
+					<button id="btn" class="top-button-root" type="button">
+						<span></span>
+					</button>
+				</top-button>
+					</div>
+	</top-gridlayout>
+		<top-linearlayout id="LinearLayout88" layout-width="match_parent" layout-height="match_parent" layout-horizontal-alignment="center" border-width="0px" horizontal-scroll="false" vertical-scroll="false" orientation="vertical">
+			<div id="LinearLayout88" class="top-linearlayout-root">
+				<top-tableview id="EMP_TABLE" class="" layout-width="match_parent" layout-height="match_parent" layout-horizontal-alignment="left" border-width="0px" on-click="get_emp" horizontal-scroll="false" vertical-scroll="false" data-model='{"items":"DR_employee.DI_employee"}' separator-visible="true" virtual-scroll="false" item-clicktype="click" sortable="false" column-reorder="false" sequence="false" paginate="false" select-type="row" editable="false" column-resize="false">
+					<div id="EMP_TABLE" class="top-tableview-root">
+
+						<top-rowitem id="RowItem3" layout-width="match_parent" border-width="0px">
+
+								<top-columnitem id="ColumnItem00" border-width="0px" text="{EMP_NO}">
+
+																</top-columnitem>
+								<top-columnitem id="ColumnItem01" border-width="0px" text="{EMP_ID}">
+
+																</top-columnitem>
+								<top-columnitem id="ColumnItem02" border-width="0px" text="{EMP_NAME}">
+
+																</top-columnitem>
+								<top-columnitem id="ColumnItem03" border-width="0px" text="{EMP_DEPARTMENT}">
+
+																</top-columnitem>
+								<top-columnitem id="ColumnItem04" border-width="0px" text="{EMP_JOB}">
+
+																</top-columnitem>
+								<top-columnitem id="ColumnItem05" border-width="0px" text="{EMP_POSITION}">
+
+																</top-columnitem>
+								<top-columnitem id="ColumnItem06" border-width="0px" text="{EMP_RANK}">
+
+																</top-columnitem>
+								<top-columnitem id="ColumnItem07" border-width="0px" text="{EMP_SKILL}">
+
+																</top-columnitem>
+								<top-columnitem id="ColumnItem08" border-width="0px" text="{EMP_PHONE}">
+
+																</top-columnitem>
+								<top-columnitem id="ColumnItem09" border-width="0px" text="{EMP_EMAIL}">
+
+																</top-columnitem>
+								<top-columnitem id="ColumnItem10" border-width="0px" text="{EMP_VALUE}">
+
+																</top-columnitem>
+								<top-columnitem id="ColumnItem11" border-width="0px" text="{}">
+
+																</top-columnitem>
+												</top-rowitem>
+						<top-tableheader id="TableHeader2" layout-width="match_parent" border-width="0px">
+
+								<top-headerrow id="HeaderRow18" layout-width="match_parent" border-width="0px">
+
+										<top-headercolumn id="HeaderColumnCK" layout-width="match_parent" border-width="0px" sortable="false" editable="false" checked="false" type="check" textposition="right">
+
+																				</top-headercolumn>
+										<top-headercolumn id="HeaderColumn00" layout-width="match_parent" border-width="0px" text="EMP_NO" sortable="false" editable="false" checked="false" type="normal" textposition="right">
+
+																				</top-headercolumn>
+										<top-headercolumn id="HeaderColumn01" layout-width="match_parent" border-width="0px" text="EMP_ID" sortable="false" editable="false" checked="false" type="normal" textposition="right">
+
+																				</top-headercolumn>
+										<top-headercolumn id="HeaderColumn02" layout-width="match_parent" border-width="0px" text="EMP_NAME" sortable="false" editable="false" checked="false" type="normal" textposition="right">
+
+																				</top-headercolumn>
+										<top-headercolumn id="HeaderColumn03" layout-width="match_parent" border-width="0px" text="EMP_DEPARTMENT" sortable="false" editable="false" checked="false" type="normal" textposition="right">
+
+																				</top-headercolumn>
+										<top-headercolumn id="HeaderColumn04" layout-width="match_parent" border-width="0px" text="EMP_JOB" sortable="false" editable="false" checked="false" type="normal" textposition="right">
+
+																				</top-headercolumn>
+										<top-headercolumn id="HeaderColumn05" layout-width="match_parent" border-width="0px" text="EMP_POSITION" sortable="false" editable="false" checked="false" type="normal" textposition="right">
+
+																				</top-headercolumn>
+										<top-headercolumn id="HeaderColumn06" layout-width="match_parent" border-width="0px" text="EMP_RANK" sortable="false" editable="false" checked="false" type="normal" textposition="right">
+
+																				</top-headercolumn>
+										<top-headercolumn id="HeaderColumn07" layout-width="match_parent" border-width="0px" text="EMP_SKILL" sortable="false" editable="false" checked="false" type="normal" textposition="right">
+
+																				</top-headercolumn>
+										<top-headercolumn id="HeaderColumn08" layout-width="match_parent" border-width="0px" text="EMP_PHONE" sortable="false" editable="false" checked="false" type="normal" textposition="right">
+
+																				</top-headercolumn>
+										<top-headercolumn id="HeaderColumn09" layout-width="match_parent" border-width="0px" text="EMP_EMAIL" sortable="false" editable="false" checked="false" type="normal" textposition="right">
+
+																				</top-headercolumn>
+										<top-headercolumn id="HeaderColumn10" layout-width="match_parent" border-width="0px" text="EMP_VALUE" sortable="false" editable="false" checked="false" type="normal" textposition="right">
+
+																				</top-headercolumn>
+										<top-headercolumn id="HeaderColumn11" layout-width="match_parent" border-width="0px" text="" sortable="false" editable="false" checked="false" type="normal" textposition="right">
+
+																				</top-headercolumn>
+																</top-headerrow>
+												</top-tableheader>
+									</div>
+			</top-tableview>
+					</div>
+	</top-linearlayout>
+	</div>
+</top-linearlayout>

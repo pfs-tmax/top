@@ -1,0 +1,133 @@
+<resource:Dialogs
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:resource="http://www.tmaxsoft.com/top/SNAPSHOT/resource">
+            
+            
+            
+            
+            
+            
+            
+
+
+
+
+
+
+
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <resource:Dialog
+            id="dialog_c_project"
+            ideUniqueId="IDddc07735df743f85be2d26b681858b45"
+            layoutHeight="600"
+            layoutWidth="600"
+            dialogLayout="layout1_1_c_project"
+            package="com.tmaxos.topyunjy.dialog"
+            title="Create Project!!">
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <resource:Event
+                xsi:type="resource:DialogEvent"/>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            </resource:Dialog>
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
+            
+            
+            
+            
+            
+            <resource:Dialog
+            id="dialog_search_emp"
+            ideUniqueId="ID17da25febaec3f0cb5df301474185246"
+            layoutHeight="500"
+            closedOnclickOutside="true"
+            dialogLayout="search_emp"
+            isConfirmation="true"
+            movable="true"
+            package="com.tmaxos.topyunjy.dialog"
+            title="Search Employee">
+                
+                
+                
+                
+                
+                <resource:Event
+                xsi:type="resource:DialogEvent"/>
+            
+            
+            
+            
+            
+            </resource:Dialog>
+
+
+
+
+
+
+</resource:Dialogs>

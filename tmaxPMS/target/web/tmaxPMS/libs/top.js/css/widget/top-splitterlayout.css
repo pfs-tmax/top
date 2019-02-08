@@ -1,0 +1,84 @@
+/*!
+ * top-splitterlayout
+ */
+
+top-splitterlayout .top-splitterlayout-root {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 0;
+    background-color: #fff;
+    border: 1px solid #dddddd;
+    line-height: normal;
+    position: relative;
+}
+
+top-splitterlayout .top-splitterlayout-root {
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+top-splitterlayout .top-splitterlayout-splitter {
+    position: absolute;
+    background-color: #d3dbdf;
+    border: 1px solid #bac3cf;
+    z-index: 1;
+    text-align: center;
+}
+
+top-splitterlayout .top-splitterlayout-splitter .top-splitterlayout-splitter_move {
+    margin-left: -5px;
+    position: absolute;
+    z-index: 5;
+    border-left: 1px dotted black;
+    height: 100%;
+}
+
+top-splitterlayout .top-splitterlayout-content {
+    position: relative;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+top-splitterlayout:not([orientation]) .top-splitterlayout-splitter,
+top-splitterlayout[orientation=""] .top-splitterlayout-splitter,
+top-splitterlayout[orientation="horizontal"] .top-splitterlayout-splitter {
+    width: 2px;
+    height: calc(100% - 2px);
+    cursor: ew-resize;
+}
+
+top-splitterlayout:not([orientation]) .top-splitterlayout-splitter:before,
+top-splitterlayout[orientation=""] .top-splitterlayout-splitter:before,
+top-splitterlayout[orientation="horizontal"] .top-splitterlayout-splitter:before {
+    content: "\e926";
+    font-family: "tmaxop";
+    font-size: 32px;
+    color: #ffffff;
+    position: absolute;
+    transform: rotate(90deg);
+    top: calc(50% - 16px);
+    left: -16px;
+}
+
+top-splitterlayout[orientation="vertical"] .top-splitterlayout-splitter {
+    width: calc(100% - 2px);
+    height: 2px;
+    cursor: ns-resize;
+}
+
+top-splitterlayout[orientation="vertical"] .top-splitterlayout-splitter:before {
+    content: "\e926";
+    font-family: "tmaxop";
+    font-size: 32px;
+    color: #ffffff;
+    bottom: -16px;
+    position: absolute;
+}
+
+top-splitterlayout[orientation="vertical"] .top-splitterlayout-splitter .top-splitterlayout-splitter_move {
+    margin-top: -5px;
+    position: absolute;
+    z-index: 5;
+    border-top: 1px dotted black;
+    width: 100%;
+}

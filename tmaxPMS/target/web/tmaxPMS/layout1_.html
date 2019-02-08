@@ -1,0 +1,141 @@
+<top-linearlayout id="layout1_" layout-width="100%" layout-height="100%" min-width="100px" border-width="0px" horizontal-scroll="false" vertical-scroll="false" page="layout_1" controller="layout1_Logic" controller-path="src/crud_task/crud_task.js" orientation="vertical">
+	<div id="layout1_" class="top-linearlayout-root">
+		<top-textfield id="TextField126" layout-width="177px" layout-height="22px" layout-horizontal-alignment="left" text="메인화면" prevent-key="false" password="false" required="false">
+			<div class="top-textfield-root">
+				<form autocomplete="off" onsubmit="return false;">
+					<input id="TextField126" class="top-textfield-text" type="text">
+					<span class="top-textfield-icon" style="display:none;"></span>
+				</form>
+			</div>
+		</top-textfield>
+		<top-linearlayout id="LinearLayout67" layout-width="match_parent" layout-height="30px" layout-horizontal-alignment="left" margin="5px 5px 5px 5px" border-width="0px" horizontal-scroll="false" vertical-scroll="false" orientation="vertical">
+			<div id="LinearLayout67" class="top-linearlayout-root">
+				<top-gridlayout id="crud_project" layout-width="320px" layout-height="30px" layout-horizontal-alignment="left" padding="" margin="" horizontal-alignment="center" vertical-alignment="middle" border-width="0px" horizontal-scroll="false" vertical-scroll="false" rows="1" cols="4">
+					<div id="crud_project" class="top-gridlayout-root">
+						<top-button id="c_project" layout-width="30px" layout-height="match_parent" layout-row="1" layout-column="1" margin="" horizontal-alignment="center" vertical-alignment="middle" on-click="c_project" text="생성" text-size="12px">
+							<button id="c_project" class="top-button-root" type="button">
+								<span></span>
+							</button>
+						</top-button>
+						<top-button id="r_project" layout-width="30px" layout-height="match_parent" layout-row="1" layout-column="2" on-click="r_project" text="읽기" text-size="12px">
+							<button id="r_project" class="top-button-root" type="button">
+								<span></span>
+							</button>
+						</top-button>
+						<top-button id="u_project" layout-width="30px" layout-height="match_parent" layout-row="1" layout-column="3" on-click="u_project" text="편집" text-size="12px">
+							<button id="u_project" class="top-button-root" type="button">
+								<span></span>
+							</button>
+						</top-button>
+						<top-button id="d_project" layout-width="30px" layout-height="match_parent" layout-row="1" layout-column="4" on-click="d_project" text="삭제" text-size="12px">
+							<button id="d_project" class="top-button-root" type="button">
+								<span></span>
+							</button>
+						</top-button>
+									</div>
+			</top-gridlayout>
+					</div>
+	</top-linearlayout>
+		<top-absolutelayout id="layout1_1" layout-width="match_parent" layout-height="500px" layout-horizontal-alignment="left" border-width="0px" horizontal-scroll="false" vertical-scroll="false">
+			<div id="layout1_1" class="top-absolutelayout-root">
+				<top-tableview id="project_list" layout-width="1598px" layout-height="286px" layout-top="28px" layout-left="11px" border-width="0px" horizontal-scroll="false" vertical-scroll="false" data-model='{"items":"DR_project.DI_project_list"}' separator-visible="true" virtual-scroll="false" item-clicktype="click" sortable="true" column-reorder="false" sequence="false" paginate="true" page-length="20" pager-type="basic" pager-location="bc" length-change="false" showresult="false" select-type="row" editable="false" column-resize="true">
+					<div id="project_list" class="top-tableview-root">
+
+						<top-rowitem id="RowItem" layout-width="match_parent" border-width="0px">
+
+								<top-columnitem id="C01" layout-width="match_parent" border-width="0px" text="{pid}">
+
+																</top-columnitem>
+								<top-columnitem id="C02" border-width="0px" text="{pname}">
+
+																</top-columnitem>
+								<top-columnitem id="C03" border-width="0px" text="{ptype}">
+
+																</top-columnitem>
+								<top-columnitem id="C04" border-width="0px" text="{start}">
+
+																</top-columnitem>
+								<top-columnitem id="C05" border-width="0px" text="{end}">
+
+																</top-columnitem>
+								<top-columnitem id="C06" border-width="0px" text="{administrator}">
+
+																</top-columnitem>
+								<top-columnitem id="C07" border-width="0px" text="{cid}">
+
+																</top-columnitem>
+								<top-columnitem id="C08" border-width="0px" text="{cname}">
+
+																</top-columnitem>
+								<top-columnitem id="C09" border-width="0px" text="{ctype}">
+
+																</top-columnitem>
+								<top-columnitem id="C10" border-width="0px" text="{volume}">
+
+																</top-columnitem>
+								<top-columnitem id="C11" border-width="0px" text="{man-month}">
+
+																</top-columnitem>
+								<top-columnitem id="C12" border-width="0px" text="{status}">
+
+																</top-columnitem>
+								<top-columnitem id="C13" border-width="0px">
+
+										<top-button id="row_task" layout-width="66px" layout-height="25px" on-click="r_task" text="task">
+											<button id="row_task" class="top-button-root" type="button">
+												<span></span>
+											</button>
+										</top-button>
+																</top-columnitem>
+												</top-rowitem>
+						<top-tableheader id="TableHeader" layout-width="match_parent" layout-height="" border-width="0px">
+
+								<top-headercolumn id="H00" layout-width="45px" border-width="0px" sortable="false" editable="false" checked="false" type="check" textposition="right">
+
+																</top-headercolumn>
+								<top-headercolumn id="H01" layout-width="50px" border-width="0px" text="pid" sortable="false" editable="false" checked="false" type="normal" textposition="right">
+
+																</top-headercolumn>
+								<top-headercolumn id="H02" layout-width="match_parent" border-width="0px" text="pname" sortable="false" editable="false" checked="false" type="normal" textposition="right">
+
+																</top-headercolumn>
+								<top-headercolumn id="H03" layout-width="100px" border-width="0px" text="ptype" sortable="false" editable="false" checked="false" type="normal" textposition="right">
+
+																</top-headercolumn>
+								<top-headercolumn id="H04" layout-width="100px" border-width="0px" text="start" sortable="false" editable="false" checked="false" type="normal" textposition="right">
+
+																</top-headercolumn>
+								<top-headercolumn id="H05" layout-width="100px" border-width="0px" text="end" sortable="false" editable="false" checked="false" type="normal" textposition="right">
+
+																</top-headercolumn>
+								<top-headercolumn id="H06" layout-width="match_parent" border-width="0px" text="administrator" sortable="false" editable="false" checked="false" type="normal" textposition="right">
+
+																</top-headercolumn>
+								<top-headercolumn id="H07" layout-width="match_parent" border-width="0px" text="cid" sortable="false" editable="false" checked="false" type="normal" textposition="right">
+
+																</top-headercolumn>
+								<top-headercolumn id="H08" layout-width="match_parent" border-width="0px" text="cname" sortable="false" editable="false" checked="false" type="normal" textposition="right">
+
+																</top-headercolumn>
+								<top-headercolumn id="H09" layout-width="match_parent" border-width="0px" text="ctype" sortable="false" editable="false" checked="false" type="normal" textposition="right">
+
+																</top-headercolumn>
+								<top-headercolumn id="H10" layout-width="match_parent" border-width="0px" text="volume" sortable="false" editable="false" checked="false" type="normal" textposition="right">
+
+																</top-headercolumn>
+								<top-headercolumn id="H11" layout-width="match_parent" border-width="0px" text="man-month" sortable="false" editable="false" checked="false" type="normal" textposition="right">
+
+																</top-headercolumn>
+								<top-headercolumn id="H12" layout-width="match_parent" border-width="0px" text="status" sortable="false" editable="false" checked="false" type="normal" textposition="right">
+
+																</top-headercolumn>
+								<top-headercolumn id="H13" layout-width="match_parent" border-width="0px" text="tasks" sortable="false" editable="false" checked="false" type="normal" textposition="right">
+
+																</top-headercolumn>
+												</top-tableheader>
+									</div>
+			</top-tableview>
+					</div>
+	</top-absolutelayout>
+	</div>
+</top-linearlayout>

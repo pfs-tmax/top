@@ -1,0 +1,260 @@
+/*!
+ * top-datepicker
+ */
+
+top-datepicker .top-datepicker-root {
+    width: 113px;
+    height: 30px;
+    line-height: 30px;
+    position: relative;
+}
+
+top-datepicker .top-datepicker-root .top-datepicker-input {
+    display: inline-block;
+    outline: none;
+    box-sizing: border-box;
+    padding: 3px 8px;
+    width: 100%;
+    height: 100%;
+    color: #666666;
+    background-color: #fbfbfb;
+    background-image: none;
+    border: 1px solid #dce3f0;
+    border-radius: 2px;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+top-datepicker .top-datepicker-root .top-datepicker-input:focus {
+    background-color: #fbfbfb;
+    border-radius: 2px;
+    border: 1px solid #3e75c7;
+    color: #1c458d;
+}
+
+top-datepicker .top-datepicker-root .top-datepicker-input[disabled],
+top-datepicker .top-datepicker-root .top-datepicker-input[readonly],
+fieldset[disabled] top-datepicker .top-datepicker-root .top-datepicker-input {
+    background-color: #f1f1f1;
+    border: 1px solid #c1c1c1;
+    color: #c1c1c1;
+    opacity: 1;
+}
+
+top-datepicker .top-datepicker-root .top-datepicker-input[disabled],
+fieldset[disabled] top-datepicker .top-datepicker-root .top-datepicker-input {
+    cursor: not-allowed;
+}
+
+top-datepicker .top-datepicker-root .top-datepicker-icon:before {
+    content: "\e962";
+    font-family: "tmaxop";
+    font-size: 14px;
+    color: #9aa5b4;
+    font-style: normal;
+    position: absolute;
+    line-height: inherit;
+    right: 9px;
+    cursor: pointer;
+    z-index: 100;
+}
+
+top-datepicker .top-datepicker-root .top-datepicker-icon {
+    cursor: pointer;
+}
+
+.top-datepicker-container {
+    width: 278px;
+    background-color: #fff;
+    cursor: pointer;
+    font-weight: 600;
+    border: 1px solid #4085ee;
+    -webkit-box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+    border-radius: 2px;
+}
+
+.top-datepicker-header {
+    width: 100%;
+    height: 45px;
+    text-align: center;
+}
+
+.top-datepicker-header .top-datepicker-prev {
+    left: 5px;
+    position: relative;
+    float: left;
+    line-height: 45px;
+}
+
+.top-datepicker-header .top-datepicker-prev:before {
+    content: "\e918";
+    font-family: "tmaxop";
+    color: #677e9a;
+}
+
+.top-datepicker-header .top-datepicker-prev-year {
+    left: 5px;
+    position: relative;
+    float: left;
+    line-height: 45px;
+    margin-right: 5px;
+}
+
+.top-datepicker-header .top-datepicker-prev-year:before {
+    content: "\e917";
+    font-family: "tmaxop";
+    color: #677e9a;
+}
+
+.top-datepicker-header .top-datepicker-next {
+    right: 5px;
+    position: relative;
+    float: right;
+    line-height: 45px;
+}
+
+.top-datepicker-header .top-datepicker-next:before {
+    content: "\e91a";
+    font-family: "tmaxop";
+    color: #677e9a;
+}
+
+.top-datepicker-header .top-datepicker-next-year {
+    right: 5px;
+    position: relative;
+    float: right;
+    margin-left: 5px;
+    line-height: 45px;
+}
+
+.top-datepicker-header .top-datepicker-next-year:before {
+    content: "\e919";
+    font-family: "tmaxop";
+    color: #677e9a;
+}
+
+.top-datepicker-header .top-datepicker-title {
+    display: inline-block;
+    line-height: 45px;
+    font-size: 14px;
+    color: #4085ee;
+}
+
+.top-datepicker-header .top-datepicker-title select.top-datepicker-year,
+.top-datepicker-header .top-datepicker-title select.top-datepicker-month {
+    background-color: #fbfbfb;
+    border-radius: 2px;
+    border: 1px solid #dce3f0;
+    height: 26px;
+}
+
+.top-datepicker-header .top-datepicker-title select.top-datepicker-year:focus,
+.top-datepicker-header .top-datepicker-title select.top-datepicker-month:focus {
+    color: #1c458d;
+    border: 1px solid #3e75c7;
+}
+
+.top-datepicker-header .top-datepicker-title select.top-datepicker-year:hover,
+.top-datepicker-header .top-datepicker-title select.top-datepicker-month:hover {
+    background-color: #dde8f7;
+}
+
+.top-datepicker-header .top-datepicker-title select.top-datepicker-year option,
+.top-datepicker-header .top-datepicker-title select.top-datepicker-month option {
+    color: #333;
+    background-color: #fff;
+}
+
+.top-datepicker-header .top-datepicker-title select.top-datepicker-year option:hover,
+.top-datepicker-header .top-datepicker-title select.top-datepicker-month option:hover {
+    background-color: #dde8f7;
+}
+
+.top-datepicker-calendar {
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+}
+
+.top-datepicker-calendar .top-datepicker-days {
+    height: 35px;
+    background-color: #f3f4f6;
+    font-size: 13px;
+    color: #4085ee;
+    display: inline-block;
+    width: 100%;
+}
+
+.top-datepicker-calendar .top-datepicker-days>tr {
+    height: inherit;
+    display: inline-block;
+}
+
+.top-datepicker-calendar .top-datepicker-days>tr>th {
+    text-align: center;
+    width: 25px;
+    line-height: 35px;
+    margin: 0px 4px;
+    display: inline-block;
+}
+
+.top-datepicker-calendar .top-datepicker-dates {
+    display: inline-block;
+    width: 100%;
+}
+
+.top-datepicker-calendar .top-datepicker-dates>tr {
+    display: inline-block;
+}
+
+.top-datepicker-calendar .top-datepicker-date {
+    font-size: 12px;
+    color: #677e9a;
+    text-decoration: none;
+    height: 25px;
+    width: 25px;
+    margin: 3px 4px;
+    display: inline-block;
+}
+
+.top-datepicker-calendar .top-datepicker-date>a,
+.top-datepicker-calendar .top-datepicker-date span {
+    line-height: 25px;
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.top-datepicker-calendar .top-datepicker-date.top-datepicker-other-month,
+.top-datepicker-calendar .top-datepicker-date.top-datepicker-unselectable {
+    color: #e2e8ec;
+    font-size: 12px;
+}
+
+.top-datepicker-calendar .top-datepicker-date.top-datepicker-current-day {
+    color: #fff;
+    font-size: 13px;
+    background-color: #4085ee;
+    border-radius: 50%;
+}
+
+.top-datepicker-calendar .top-datepicker-date:not(.top-datepicker-other-month):not(.top-datepicker-unselectable):hover {
+    font-size: 12px;
+    background-color: #dde8f7;
+    border-radius: 50%;
+}
+
+top-datepicker.violet input[type="date"]:focus {
+    border: 1px solid #6a6aa6;
+    color: #6a6aa6;
+}
+
+top-datepicker.bluegray input[type="date"]:focus {
+    border: 1px solid #4f6482;
+    color: #4f6482;
+}
+
+top-datepicker.error .top-datepicker-root .top-datepicker-input {
+    border: 1px solid #e25750;
+    color: #e31b23;
+}

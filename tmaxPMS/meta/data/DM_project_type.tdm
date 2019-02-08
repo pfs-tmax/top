@@ -1,0 +1,11 @@
+<resource:DataModel
+    xmlns:resource="http://www.tmaxsoft.com/top/SNAPSHOT/resource"
+    id="DM_project_type"
+    ideUniqueId="ID51716e354806374dba5b6ad8c76414a0"
+    package="com.tmaxos.topyunjy.datamodel">
+        
+        <resource:dataField
+        fieldType="String"
+        name="PROJECT_TYPE"/>
+
+</resource:DataModel>

@@ -1,0 +1,9 @@
+<resource:Windows
+        xmlns:resource="http://www.tmaxsoft.com/top/SNAPSHOT/resource">
+            <resource:Window
+            id="MaintmaxPMSWindow"
+            ideUniqueId="ID6c687929719d3a31b49c1097109055fc"
+            content="MaintmaxPMSPage"
+            package="com.tmaxos.topyunjy.window"
+            title="New Window"/>
+</resource:Windows>
